@@ -1,7 +1,0 @@
-临床数据整理
-clinical_names=c("Tumor_Sample_Barcode","FAB_classification","days_to_last_followup","Overall_Survival_Status")
-
-clinical_LUAD_m1 = DataFrame(clinical_LUAD$submitter_id,
-                             clinical_LUAD$tumor_stage,
-                             clinical_LUAD$days_to_last_follow_up,
-                             clinical_LUAD$days_to_death)
